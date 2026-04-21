@@ -375,10 +375,10 @@ export default function App() {
                 <p className="text-lg md:text-xl text-gray-500 font-light leading-relaxed">{activeCenter.summary}</p>
               </header>
 
-              <div className="p-8 md:p-10 bg-brand-secondary text-white rounded-[40px] mb-16 shadow-2xl relative overflow-hidden group">
-                <div className="absolute top-0 right-0 w-32 h-32 bg-brand-primary/10 rounded-full blur-3xl opacity-50 -mr-10 -mt-10 group-hover:scale-110 transition-transform duration-700" />
+              <div className="p-8 md:p-10 bg-orange-50 border border-orange-100/50 text-brand-secondary rounded-[40px] mb-16 shadow-xl shadow-orange-900/5 relative overflow-hidden group">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-brand-primary/10 rounded-full blur-3xl opacity-30 -mr-10 -mt-10 group-hover:scale-110 transition-transform duration-700" />
                 <h3 className="text-xl font-bold mb-4 flex items-center gap-2 text-brand-primary"><Info size={20} /> Center Overview</h3>
-                <p className="text-gray-300 leading-relaxed font-light text-base md:text-lg">{activeCenter.description}</p>
+                <p className="text-gray-700 leading-relaxed font-medium text-base md:text-lg">{activeCenter.description}</p>
               </div>
 
               {activeCenter.keyFeatures && (
